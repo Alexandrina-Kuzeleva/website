@@ -1,0 +1,3 @@
+#RewriteEngine On
+#RewriteCond %{ENV:HTTPS} =on
+#RewriteRule ^(.*)$ http://xn--80adrjmxik9b.xn--p1ai/index.html$1 [R=301,L]

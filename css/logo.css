@@ -1,0 +1,19 @@
+.soc{
+    width: 2%; 
+    float:right; 
+    padding-right:30px;
+}
+@media screen and (max-width: 940px) {
+    .soc {
+        width: 3%; 
+        padding-right: 10px;
+        
+    }
+}
+@media screen and (max-width:481px) {
+    .soc {
+        width: 6%; 
+        padding-right: 10px;
+        
+    }
+}

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>СНТ Ивушка/Контакты</title>
+        <link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="margin: 0; padding: 0">
+        <div class="topnav" id="myTopnav">
+            <h1 class="title">СНТ Ивушка</h1>
+            <a href="index.html">Главная</a>
+            <a href="fotos.html">О нас</a>
+            <a href="government.html">Правление</a>
+            <a href="documents.html">Документы</a>
+            <a href="archive.html">Информация и объявления</a>
+            <a href="contacts.html" class="active">Контакты</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="contentlist">  
+            <h1 class="h1">Местоположение</h1>
+            <p class="newstext">Адрес: Московская область, Воскресенский г.о., с. Конобеево, <br>СНТ "Ивушка".</p>
+            <p class="newstext">Телефон:<a class="newsa" href="tel:+7 926 165 64 10">+7 926 165 64 10</a></p>
+            <div class="map">
+                <a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" class="map_title">Яндекс.Карты</a>
+                <a href="https://yandex.ru/maps/geo/sadovoye_tovarishchestvo_ivushka/53203891/?ll=38.688711%2C55.446206&utm_medium=mapframe&utm_source=maps&z=16.51" class="map_text">Садовое товарищество Ивушка — Яндекс.Карты</a>
+                <iframe src="https://yandex.ru/map-widget/v1/-/CCUe4NFA-A" width="600" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p style="text-align:end;padding:0; margin:0">
+                <time style="float:left" datetime="2021">&copy;2021</time>
+                <a style="font-size: 120%; color: white;" href="mailto: sntivushkacop@gmail.com">sntivushkacop@gmail.com</a>
+                <a style="font-size: 105%; color: white;" target="_blank" href="https://t.me/sntivu">Мы в Телеграм</a>
+                <a style="font-size: 105%; color: white;padding-right:10px" target="_blank" href="https://vk.com/sntivu">Мы в Вконтакте</a>
+            </p>
+            <!--<img class="soc" src="img/tel.png">
+            <img class="soc" src="img/vk.png">-->
+        </div>
+        <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+    </body>
+</html>

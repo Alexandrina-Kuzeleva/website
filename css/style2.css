@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: #ededed;
+}
+
+.road {
+    width: 853px; 
+    margin-left: auto;
+    margin-right: auto
+}
+
+.footer {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background: #2f2f2f; 
+    color: #ffffff; 
+    width: 100%;
+}
+.content {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.text {
+    text-align: center;
+    font-size: 30px;
+}
+.head {
+    overflow: hidden;
+    background: #2f2f2f; 
+    color: #ffffff; 
+    width: 100%;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head a {
+    color: white;
+    display:block;
+    float: left;
+    text-align: center;
+    padding: 23px 10px;
+    text-decoration: none;
+    font-size: 23px;
+}
+.head a:hover {
+    background:#171717;
+    color: white;
+}
