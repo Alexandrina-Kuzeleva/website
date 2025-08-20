@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Inter-Black;
+    src: url('../fonts/inter/Inter-Black.ttf'); 
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url('../fonts/inter/Inter-Bold.ttf'); 
+}
+
+@font-face {
+    font-family: Inter-Medium;
+    src: url('../fonts/inter/Inter-Medium.ttf'); 
+}
+
+@font-face {
+    font-family: Inter-Thin;
+    src: url('../fonts/inter/Inter-Thin.ttf'); 
+}
+
+
+.books {
+    display: flex;
+    flex-direction: row; /* Горизонтальное распределение элементов */
+    justify-content: space-between; /* Равномерное распределение между ссылками */
+    
+    width: 100%; /* Занимаем всю доступную ширину */
+}
+
+.book-card {
+    padding: 1vh;
+    
+}
+
+.book-card img{
+    width: 95%;
+}
+
+.book-card button {
+    background-color: #1C1C1C;
+    border-radius: 10px;
+    border-style: none;
+    color: #ffffff;
+    font-family: Inter-Medium;
+}
+.book-card :hover {
+    background-color: #404040;
+
+}
+.about_books {
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    width: 150vh;
+    border-radius: 10px;
+    margin: 1vh 0 1vh 0;
+}
+
+
+
+/* Testing */
+
+.book-selection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.book-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #1C1C1C;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: Inter-Medium;
+}
+
+.book-button:hover {
+    background-color: #404040;
+}
+
+
+.chapter-button {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Inter-Medium;
+}
+
+.chapter-button:hover {
+    background-color: #404040;
+    color: #f0f0f0;
+}
+
+.chapter-content {
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Inter-Medium;
+    width: 150vh;
+
+    border-radius: 10px;
+    margin: 5vh 0 5vh 0;
+}
